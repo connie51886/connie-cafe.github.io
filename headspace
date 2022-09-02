@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <div class = "container">
+      <div class="heading">
+        <p>
+          Connie Lin <br />
+        </p>
+      </div>
+      <ul class="tab">
+        <li class="active"> Headspace </li>
+        <li class> <a class = "navlink"href="portfolio.html">Design</a></li>
+        <li> <a class="navlink" href="https://sincerelybewildered.substack.com/" target="_blank">Ramblings</a> </li>
+      </ul>
+
+   
+      <script>
+        const items = document.querySelectorAll("ul li");
+        items.forEach(item=>{
+          item.addEventListener("click", ()=>{
+            document.querySelector("li.active").classList.remove("active");
+            item.classList.add("active");
+          })
+        });
+      </script>
+
+     
+    <figure class="chirico">
+     <img src = "Frame 7.png" width="642" height="272">
+     <figcaption>Piazza d’Italia by Giorgio de Chirico. </figcaption>
+    </figure>
+
+    <div class = "description">
+        <p class = "currently">Currently 
+          <span class="content"> — designing how money & goods flow across the country at <a href="https://www.loop.us/">Loop</a>.
+           </span>
+        </p>
+        <p class = "currently">Previously 
+          <span class="content">— stumbled upon hypotheses on how digital environments unlock creative potential during my work at the education startup <a href="https://primer.com/">Primer</a>.
+             I researched how children’s curiosities evolve into passions and applied the insights to craft radical product experiments. Find some of my investigation field notes <a href="https://sincerelybewildered.substack.com/p/my-field-notes-from-primer">here</a> and related long-form musings <a href="https://sincerelybewildered.substack.com/p/alohomora">here</a>.
+        </p>
+        <p class="italicize"> Check out my work in the design tab :)</p>
+    </div>
+
+
+    
+    <style type="text/css">
+      p.currently {color:#2608DC; font-family:'Courier New', Courier, monospace;font-size:16; text-transform: uppercase; }
+      span.content {color: #000000; font-style: normal; font-family: serif; text-transform: none;}
+    </style>
+
+  
+  </body>
+</html>
