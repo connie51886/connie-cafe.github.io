@@ -1,0 +1,141 @@
+body{
+  color:#000000;
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+
+}
+
+.heading{
+  font-style: Italic;
+  font-size: 40px;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #2608DC;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+
+ul{
+  color: #2608DC;
+  list-style-type: none;
+  display: flex;
+  height: 24px;
+  width: 642px;
+  justify-content: space-between;
+  gap: 32px;
+  
+  display: flex;
+
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-transform: uppercase;
+
+}
+
+
+ul li{
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+
+}
+
+
+li.active::after{
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color:#2608DC;
+  left: 0;
+  bottom: -4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+  animation: appear .2s linear;
+}
+@keyframes appear{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+
+}
+figcaption{
+  font-style: Italic;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+font-size: 16px;
+line-height: 20px;
+
+}
+
+.chirico{
+  height: 304px;
+  padding-top: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.description{
+  font-size: 16px;
+  width: 642px;
+  line-height: 21px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 40px;
+}
+
+.portfolio{
+  font-size: 16px;
+  width: 642px;
+  line-height: 21px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 40px;
+}
+
+a{
+  color:#000000;
+  text-decoration: underline;
+}
+
+.navlink{
+  color: #2608DC;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.portfolio{
+  font-style: italic;
+  
+}
+
+.italicize{
+  font-style: italic;
+}
