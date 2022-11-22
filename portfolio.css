@@ -99,6 +99,6 @@ img:hover {
     border-radius: 10px;
     }
 
-img {
-     border: 1px solid #2608DC;
-     }
+img{
+     border-radius: 10px;
+}
