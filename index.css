@@ -107,9 +107,9 @@ line-height: 20px;
 }
 
 .portfolio{
-  font-size: 16px;
+  font-size: 20px;
   width: 642px;
-  line-height: 21px;
+  line-height: 28px;
   flex: none;
   order: 1;
   flex-grow: 0;
