@@ -1,4 +1,5 @@
 
+
 body{
     color:#000000;
     display: flex;
@@ -96,4 +97,8 @@ li.active::after{
 img:hover {
     box-shadow: 0px 4px 6px 4px rgba(38, 8, 220, 0.25);
     border-radius: 10px;
-}
+    }
+
+img {
+     border: 1px solid #2608DC;
+     }
