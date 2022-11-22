@@ -8,7 +8,7 @@ body{
 
 .heading{
   font-style: Italic;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   flex: none;
   order: 0;
@@ -97,7 +97,7 @@ line-height: 20px;
 }
 
 .description{
-  font-size: 16px;
+  font-size: 20px;
   width: 642px;
   line-height: 21px;
   flex: none;
