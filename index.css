@@ -1,9 +1,13 @@
+@font-face {
+    font-family: IbarraRealNova;
+    src: url("IbarraRealNova-Italic-VariableFont_wght.ttf") format('truetype');
+}
+
 body{
   color:#000000;
   display: flex;
   justify-content: center;
   font-family: serif;
-
 }
 
 .heading{
