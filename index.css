@@ -2,7 +2,7 @@ body{
   color:#000000;
   display: flex;
   justify-content: center;
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: 'Ibarra Real Nova';
 }
 
 .heading{
