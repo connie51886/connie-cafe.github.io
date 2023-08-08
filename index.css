@@ -36,7 +36,7 @@ align-items: center;
 flex: none;
 order: 1;
 flex-grow: 0;
-font-family: 'Space Mono';
+font-family: 'IBM Plex Mono', monospace;
 font-weight: 400;
 font-size: 20px;
 line-height: 21px;
